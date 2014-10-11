@@ -1,0 +1,21 @@
+{
+  "name": "clumps.js",
+  "version": "0.0.0",
+  "authors": [
+    "timbresmith <fitchmicah@gmail.com>"
+  ],
+  "description": "A post-tonal music theory library based on bzamecnik/music-theory-toolbox",
+  "main": "clumps.js",
+  "keywords": [
+    "music",
+    "theory",
+    "pitch",
+    "class",
+    "sets"
+  ],
+  "license": "MIT",
+  "ignore": ["*","!dist/*"],
+  "dependencies": {
+    "underscore": "~1.7.0"
+  }
+}
