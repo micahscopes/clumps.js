@@ -6,13 +6,13 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: ['bower_components/underscore/underscore.js','src/*.js'],
-        dest: 'dist/clumps.js'
+        dest: 'clumps.js'
       }
     },
     uglify: {
       dist: {
-        src: ['dist/clumps.js'],
-        dest: 'dist/clumps.min.js'
+        src: ['clumps.js'],
+        dest: 'clumps.min.js'
       }
      }
   });
