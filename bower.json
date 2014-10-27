@@ -14,7 +14,6 @@
     "sets"
   ],
   "license": "MIT",
-  "ignore": ["clumps*js"],
   "dependencies": {
     "underscore": "~1.7.0"
   }
