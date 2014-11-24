@@ -108,6 +108,8 @@ ClumpSpace = function(){
 		return sum;
 	};
 
+	this.getIndexFromPitchArray = pitchArrayFromIndex;
+
 	function bitSetFromIndex(index) {
 		return _.map(octave, function(i){
 			return (index & (1 << (octave.length - i - 1))) > 0 ? 1 : 0;
